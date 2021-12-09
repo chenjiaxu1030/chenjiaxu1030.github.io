@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>爱吃鳗鱼的喵喵子</title>
+  <title>陈老板的吐槽屋</title>
   
-  <subtitle>Cella</subtitle>
+  <subtitle>还在苦逼的搭后台ing</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
@@ -10,7 +10,7 @@
   <id>http://example.com/</id>
   
   <author>
-    <name>Cella Chen</name>
+    <name>能不能别卷了</name>
     
   </author>
   

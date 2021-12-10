@@ -1,46 +1,44 @@
 name: CI
-# master branch on push, auto run
-on: 
+on:
   push:
     branches:
       - source
-      
 jobs:
-  build: 
-    runs-on: ubuntu-latest 
-        
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-    # check it to your workflow can access it
-    # from: https://github.com/actions/checkout
-    - name: Checkout Repository source branch
-      uses: actions/checkout@source
-      
-    # from: https://github.com/actions/setup-node  
-    - name: Setup Node.js 10.x 
-      uses: actions/setup-node@source
-      with:
-        node-version: "10.x"
-    
-    - name: Setup Hexo Dependencies
-      run: |
-        npm install hexo-cli -g
-        npm install
-    
-    - name: Setup Deploy Private Key
-      env:
-        HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY }}
-      run: |
-        mkdir -p ~/.ssh/
-        echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa 
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan github.com >> ~/.ssh/known_hosts
-        
-    - name: Setup Git Infomation
-      run: | 
-        git config --global user.name 'chenjiaxu1030' 
-        git config --global user.email '791099625@qq.com'
-    - name: Deploy Hexo 
-      run: |
-        hexo clean
-        hexo generate 
-        hexo deploy
+      - name: Checkout source
+        uses: actions/checkout@v1
+        with:
+          ref: source
+          
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          version: ${{ matrix.node_version }}
+          
+      - name: Setup Hexo Dependencies
+        run: |
+          npm install hexo-cli -g
+          npm install
+          
+      - name: Setup Deploy Private Key
+        env:
+          HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+                   
+      - name: Setup Git Infomation
+        run: | 
+          git config --global user.name 'chenjiaxu1030' 
+          git config --global user.email '791099625@qq.com'
+
+      - name: Hexo deploy
+        run: |
+          hexo clean
+          hexo generate 
+          hexo deploy

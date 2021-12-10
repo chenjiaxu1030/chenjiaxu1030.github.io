@@ -1,0 +1,12 @@
+# workflow name
+name: Hexo Blog CI
+
+# master branch on push, auto run
+on: 
+  push:
+    branches:
+      - master
+      
+jobs:
+  build: 
+    runs-on: ubuntu-latest 

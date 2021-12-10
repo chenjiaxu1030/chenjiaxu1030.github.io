@@ -14,7 +14,7 @@ jobs:
           ref: source
           
       - name: Setup Node.js 12.x 
-        uses: actions/setup-node@source
+        uses: actions/setup-node@v1
         with:
           node-version: "12.x"
       

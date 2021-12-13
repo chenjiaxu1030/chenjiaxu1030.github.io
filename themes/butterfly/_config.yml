@@ -94,7 +94,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img:/img/01b0d1c4f8db2da3d4b2dac15f59f13e.jpeg
+index_img: /img/01b0d1c4f8db2da3d4b2dac15f59f13e.jpeg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:

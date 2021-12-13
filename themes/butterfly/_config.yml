@@ -838,9 +838,17 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    #
+    - <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
   bottom:
     # - <script src="xxxx"></script>
+    - <script src="/live2d-widget/autoload.js"></script>
+
+#看板娘
+live2d:
+  enable: true
 
 # CDN
 # Don't modify the following settings unless you know how they work

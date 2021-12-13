@@ -850,6 +850,15 @@ inject:
 live2d:
   enable: true
 
+#Bilibili
+bangumi:
+  enable: true
+  vmid: 17242225
+  title: '生命不息，追番不止。'
+  quote: 'Where there is life, there is life.'
+  show: 1
+  loading: '/img/bangumi-loading.gif'
+
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改

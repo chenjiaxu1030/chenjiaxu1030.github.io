@@ -94,7 +94,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img:./source/img/01b0d1c4f8db2da3d4b2dac15f59f13e.jpeg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -838,6 +838,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
   bottom:
     # - <script src="xxxx"></script>
 

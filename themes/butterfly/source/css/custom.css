@@ -2,11 +2,11 @@
 * @Author: name
 * @Date:   2021-12-13 15:23:25
 * @Last Modified by:   name
-* @Last Modified time: 2021-12-13 16:33:43
+* @Last Modified time: 2021-12-13 16:39:21
 */
 @font-face {
     font-family:'arzhu';
-    src:url(/font/美呗嘿嘿体2.0.ttf); /* 修改成你的字体 */
+    src:url(/font/Mengshen-Handwritten.ttf); /* 修改成你的字体 */
     font-display:swap
 }
 h1#site-title {
@@ -20,6 +20,7 @@ a#site-name {
 }
 
 
+
 #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
     background: var(--light_bg_color)
 }
@@ -31,6 +32,8 @@ a#site-name {
 #web_bg {
     background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
 }
+
+
 
 #footer {
     background: rgba(255,255,255,.15);

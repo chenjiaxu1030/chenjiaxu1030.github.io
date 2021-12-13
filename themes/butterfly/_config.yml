@@ -7,7 +7,6 @@
 #   name: link || icon
 
 menu:
-  menu:
   首頁: / || fas fa-home
   時間軸: /archives/ || fas fa-archive
   標籤: /tags/ || fas fa-tags

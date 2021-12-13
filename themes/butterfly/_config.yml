@@ -56,7 +56,10 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
+  labels:
+    input_placeholder: 搜索文章
+    hits_empty: "没找到: ${query} 相关内容捏" # 如果没有查到内容相关内容显示
 
 # Math (數學)
 # --------------------------------------

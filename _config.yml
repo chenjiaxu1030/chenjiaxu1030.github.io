@@ -70,6 +70,32 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# bilibili
+bangumi:
+  enable: true
+  vmid: 17242225
+  title: '生命不息，追番不止。'
+  quote: 'Where there is life, there is life.'
+  show: 1
+  loading: '/img/bangumi-loading.gif'
+
+live2d:
+  enable: true
+  scriptFrom: local # 默认
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  model:
+    use: live2d-widget-model-shizuku  #模型选择
+  display:
+    position: right  #模型位置
+    width: 150       #模型宽度
+    height: 300      #模型高度
+    hOffset: 20
+    vOffset: -20
+  mobile:
+    show: false      #是否在手机端显示
+
+
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true

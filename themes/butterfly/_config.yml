@@ -56,10 +56,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
-  labels:
-    input_placeholder: 搜索文章
-    hits_empty: "没找到: ${query} 相关内容捏" # 如果没有查到内容相关内容显示
+  enable: false
 
 # Math (數學)
 # --------------------------------------
@@ -783,7 +780,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable:false
+  enable: false
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)

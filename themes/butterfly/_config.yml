@@ -9,8 +9,8 @@
 menu:
   首頁: / || fas fa-home
   時間軸: /archives/ || fas fa-archive
-  標籤: /tags/ || fas fa-tags
-  分類: /categories/ || fas fa-folder-open
+  #標籤: /tags/ || fas fa-tags
+  #分類: /categories/ || fas fa-folder-open
   娱乐||fa fa-heartbeat:
     追番: /bangumis/ || fas fa-video
   友鏈: /link/ || fas fa-link

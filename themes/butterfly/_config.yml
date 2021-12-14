@@ -508,11 +508,11 @@ tag_ui: # 留空或 index
 background: /img/590b02db65f6cbb27cde58f84d0a5c1a.jpeg
 
 #字数统计
-wordcount:
-  enable: true
-  post_wordcount: true
-  min2read: true
-  total_wordcount: true
+#wordcount:
+#  enable: true
+#  post_wordcount: true
+#  min2read: true
+#  total_wordcount: true
 
 # Footer Background
 footer_bg: true

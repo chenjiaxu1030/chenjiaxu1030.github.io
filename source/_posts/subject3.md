@@ -110,13 +110,13 @@ title: 驾校科三
 19.停稳后，挂空挡，熄火，拉手刹，松安全带，下车记得关门
 
 
-### 3.路线图：（4 5号线前半段差不多）
+### 3.路线图：（沈北新科三考场）
 
-4号线：![](https://cdn.jsdelivr.net/gh/chenjiaxu1030/chenjiaxu1030.github.io@source/themes/butterfly/source/img/1663404670000.jpg)
+1号线：![](https://cdn.jsdelivr.net/gh/chenjiaxu1030/chenjiaxu1030.github.io@source/themes/butterfly/source/img/1675480497000.jpg)
 
-5号线：![](https://cdn.jsdelivr.net/gh/chenjiaxu1030/chenjiaxu1030.github.io@source/themes/butterfly/source/img/1663404678000.jpg)
+2号线：![](https://cdn.jsdelivr.net/gh/chenjiaxu1030/chenjiaxu1030.github.io@source/themes/butterfly/source/img/1675480510000.jpg)
 
-6号线：![](https://cdn.jsdelivr.net/gh/chenjiaxu1030/chenjiaxu1030.github.io@source/themes/butterfly/source/img/1663404687000.jpg)
+3号线：![](https://cdn.jsdelivr.net/gh/chenjiaxu1030/chenjiaxu1030.github.io@source/themes/butterfly/source/img/1675480520000.jpg)
 
 灯光：![](https://cdn.jsdelivr.net/gh/chenjiaxu1030/chenjiaxu1030.github.io@source/themes/butterfly/source/img/1663404696000.jpg)
 

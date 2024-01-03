@@ -80,6 +80,12 @@ bangumi:
   show: 1
   loading: '/img/bangumi-loading.gif'
 
+twikoo:
+  envId: https://hexo-twikoo-lake.vercel.app
+  region:
+  visitor: false
+  option:
+
 #电子钟
 electric_clock:
   priority: 5

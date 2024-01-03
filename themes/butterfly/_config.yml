@@ -361,7 +361,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://hexo-twikoo-lake.vercel.app
+  envId: https://hexo-twikoo-lake.vercel.app/
   region:
   visitor: false
   option:

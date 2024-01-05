@@ -82,16 +82,16 @@ bangumi:
 
 # HexoPlusPlus Talk
 # see https://hexoplusplus.js.org
-hpptalk:
-  enable: true 
-  domain: https://hexoblog.791099625.workers.dev/
-  path: About
-  limit:
-  start:
-  js:
-  css:
-  option:
-  front_matter:
+# hpptalk:
+#  enable: true 
+# domain: https://hexoblog.791099625.workers.dev/
+#  path: About
+#  limit:
+#  start:
+#  js:
+#  css:
+#  option:
+#  front_matter:
 
 #电子钟
 electric_clock:

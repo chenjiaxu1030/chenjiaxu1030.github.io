@@ -85,7 +85,7 @@ bangumi:
 hpptalk:
   enable: true 
   domain: https://hexoblog.791099625.workers.dev
-  path: About
+  path: about
   limit:
   start:
   js:
